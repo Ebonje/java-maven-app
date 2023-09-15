@@ -32,7 +32,7 @@ pipeline {
                 ok "Done"
                 parameters {
                     choice(name: 'one', choices: ['dev', 'staging', 'prod'], description: '')
-                    choice(name: 'two', choices: ['dev', 'staging', 'prod'], description: '')
+                  
                 }
             }
             steps {
@@ -40,7 +40,7 @@ pipeline {
                     echo "deploying"
                     //gv.deployApp()
                     echo "deploying to ${one}"
-                    echo "deploying to ${two}" 
+                    
                 }
             }
         }
