@@ -39,7 +39,7 @@ pipeline {
                 script {
                     echo "deploying"
                     //gv.deployApp()
-                    echo "deploying to ${one}"
+                 
                     
                 }
             }
