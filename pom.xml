@@ -17,7 +17,7 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>package</goal>
+                            <goal>mvn package</goal>
                         </goals>
                     </execution>
                 </executions>
