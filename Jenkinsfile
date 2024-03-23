@@ -3,8 +3,8 @@ def gv
 pipeline {
     agent any
     triggers {
-  cron '* * * * *'
-}
+      cron '* * * * *'
+    }
     stages {
         stage("init") {
             steps {
