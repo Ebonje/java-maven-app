@@ -31,8 +31,8 @@ pipeline {
                 message "select the environment to deploy to"
                 ok "Done"
                 parameters {
-                    choice(name: 'one', choices: ['dev', 'staging', 'prod'], description: '')
-                    choice(name: 'one', choices: ['dev', 'staging', 'prod'], description: '')                
+                    choice(name: 'one', choices: ['dev', 'staging', 'prod'], descriptions: '')
+                    choice(name: 'one', choices: ['dev', 'staging', 'prod'], descriptions: '')                
                 }
             }
             steps {
