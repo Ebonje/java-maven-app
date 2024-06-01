@@ -37,7 +37,7 @@ pipeline {
         }
         stage("deploy")
             input {
-                message "select the environment to deploy to if it triggered"
+                message "select the environment to deploy to if it triggered for it"
                 ok "Done"
                 parameters {
                     choice(name: 'one', choices: ['dev', 'staging', 'prod'], description: '')                
