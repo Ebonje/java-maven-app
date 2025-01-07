@@ -35,7 +35,7 @@ pipeline {
                 }
             }
         }
-        stage("deploy")
+        stage("deploy") {
             input {
                 message "select the environment to deploy to if it triggered"
                 ok "Done"
