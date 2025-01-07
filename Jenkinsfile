@@ -26,7 +26,7 @@ pipeline {
                 }
             }
         }
-        stage("test") {
+        stage("buildimage") {
             when {
                 expression {
                     params.executeTests
@@ -34,7 +34,7 @@ pipeline {
             }
             steps {
                 script {
-                    gv.testApp()
+                    gv.buildImage()
                 }
             }
         }
