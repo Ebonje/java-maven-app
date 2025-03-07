@@ -10,7 +10,7 @@ library identifier: 'jenkins-shared-library@master', retriever: modernSCM(
 pipeline {
     agent any
     tools {
-        maven 'Maven'
+        maven 'Maven3'
     }
     environment {
         IMAGE_NAME = 'nanajanashia/demo-app:java-maven-2.0'
