@@ -13,7 +13,7 @@ pipeline {
         maven 'maven3'
     }
     environment {
-        IMAGE_NAME = 'nanajanashia/demo-app:java-maven-2.0'
+        IMAGE_NAME = 'ebonje/demo-app:java-maven-2.0'
     }
     stages {
         stage('build app') {
